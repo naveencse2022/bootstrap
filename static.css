@@ -1,0 +1,36 @@
+.cardbody{
+    width: 40rem;
+    border: 2px solid rgb(28, 8, 65);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: black;
+
+}
+/*.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}*/
+p{
+    color: green;
+}
+s{
+    color: red;
+}
+button{
+    padding: 1%;
+    background-color: rgb(2, 27, 13);
+    color: white;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+    @media only screen (min-width:320px) and (max-width:480){
+        .cardbody{
+            border:red;
+            width:100%;
+            background-color: skyblue;
+        }
+    }
